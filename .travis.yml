@@ -3,11 +3,11 @@ language: php
 matrix:
   fast_finish: true
   include:
-    - php: 7.3
     - php: 7.4
       env:
         - CODE_STYLE=true
     - php: 8.0
+    - php: 8.1
 
 cache:
   directories:
